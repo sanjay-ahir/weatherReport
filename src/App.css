@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bgImage{
+    background-image: url('https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.container {
+    padding: 20px;
+}
+
+.city-info,
+.weather-info {
+    margin-top: 20px;
+}
+.city-info{
+    font-size: xxx-large;
+}
+.city-descri{
+    font-size: xx-large;
+    padding-left: 120px;
+}
+.error-message{
+    font-size: xxx-large;
+    color: red;
+    background-color: white;
+}
+img{
+    height: 100px;
+    width: auto;
+    background-color: white;
+}
+/*style="width: 18rem;"*/
+/*7db5012d6e14b574d34c121a30ac5a28*/
+
+.card{
+    border-radius: unset;
+}
